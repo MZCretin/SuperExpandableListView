@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:src="@mipmap/timg"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="穆仙念"
+            android:textColor="#4a4a4a"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tv_sig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:paddingRight="16dp"
+            android:singleLine="true"
+            android:text="[4G在线]所有人都在奋不顾身，不是只有你受尽委屈"
+            android:textColor="#9b9b9b"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+</LinearLayout>
